@@ -1,0 +1,28 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+.container{
+    padding: 20px 30px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 15px;
+}
+.container input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px gray;
+    outline: none;
+}
+.container button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px gray;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.container button:active{
+        border: 1px solid gray;
+}
